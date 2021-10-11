@@ -13,6 +13,10 @@
 		2D50D03B27143B7700C2E51A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D50D03927143B7700C2E51A /* Main.storyboard */; };
 		2D50D03D27143B7800C2E51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D50D03C27143B7800C2E51A /* Assets.xcassets */; };
 		2D50D04027143B7800C2E51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D50D03E27143B7800C2E51A /* LaunchScreen.storyboard */; };
+		2D50D04827143DC400C2E51A /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50D04727143DC400C2E51A /* MovieTableViewController.swift */; };
+		2D50D04A27143DEB00C2E51A /* Airtable JSON Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50D04927143DEB00C2E51A /* Airtable JSON Type.swift */; };
+		2D50D04C2714485300C2E51A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50D04B2714485300C2E51A /* MovieTableViewCell.swift */; };
+		2D5961A827145C4100A1CEF0 /* TailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5961A727145C4100A1CEF0 /* TailerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2D50D03C27143B7800C2E51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D50D03F27143B7800C2E51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D50D04127143B7800C2E51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D50D04727143DC400C2E51A /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		2D50D04927143DEB00C2E51A /* Airtable JSON Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Airtable JSON Type.swift"; sourceTree = "<group>"; };
+		2D50D04B2714485300C2E51A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		2D5961A727145C4100A1CEF0 /* TailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				2D50D03327143B7700C2E51A /* AppDelegate.swift */,
 				2D50D03527143B7700C2E51A /* SceneDelegate.swift */,
-				2D50D03727143B7700C2E51A /* ViewController.swift */,
+				2D50D04B2714485300C2E51A /* MovieTableViewCell.swift */,
 				2D50D03927143B7700C2E51A /* Main.storyboard */,
+				2D50D04927143DEB00C2E51A /* Airtable JSON Type.swift */,
+				2D50D04727143DC400C2E51A /* MovieTableViewController.swift */,
+				2D50D03727143B7700C2E51A /* ViewController.swift */,
+				2D5961A727145C4100A1CEF0 /* TailerViewController.swift */,
 				2D50D03C27143B7800C2E51A /* Assets.xcassets */,
 				2D50D03E27143B7800C2E51A /* LaunchScreen.storyboard */,
 				2D50D04127143B7800C2E51A /* Info.plist */,
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D50D04827143DC400C2E51A /* MovieTableViewController.swift in Sources */,
 				2D50D03827143B7700C2E51A /* ViewController.swift in Sources */,
+				2D50D04C2714485300C2E51A /* MovieTableViewCell.swift in Sources */,
+				2D50D04A27143DEB00C2E51A /* Airtable JSON Type.swift in Sources */,
+				2D5961A827145C4100A1CEF0 /* TailerViewController.swift in Sources */,
 				2D50D03427143B7700C2E51A /* AppDelegate.swift in Sources */,
 				2D50D03627143B7700C2E51A /* SceneDelegate.swift in Sources */,
 			);
